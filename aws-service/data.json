@@ -1,0 +1,106 @@
+{
+  "artifacts": { 
+     "artifactIdentifier": "string",
+     "encryptionDisabled": "boolean",
+     "location": "string",
+     "name": "string",
+     "namespaceType": "string",
+     "overrideArtifactName": "boolean",
+     "packaging": "string",
+     "path": "string",
+     "type": "string"
+  },
+  "badgeEnabled": "boolean",
+  "cache": { 
+     "location": "string",
+     "type": "string"
+  },
+  "description": "string",
+  "encryptionKey": "string",
+  "environment": { 
+     "certificate": "string",
+     "computeType": "string",
+     "environmentVariables": [ 
+        { 
+           "name": "string",
+           "type": "string",
+           "value": "string"
+        }
+     ],
+     "image": "string",
+     "imagePullCredentialsType": "string",
+     "privilegedMode": "boolean",
+     "registryCredential": { 
+        "credential": "string",
+        "credentialProvider": "string"
+     },
+     "type": "string"
+  },
+  "logsConfig": { 
+     "cloudWatchLogs": { 
+        "groupName": "string",
+        "status": "string",
+        "streamName": "string"
+     },
+     "s3Logs": { 
+        "location": "string",
+        "status": "string"
+     }
+  },
+  "name": "string",
+  "queuedTimeoutInMinutes": "number",
+  "secondaryArtifacts": [ 
+     { 
+        "artifactIdentifier": "string",
+        "encryptionDisabled": "boolean",
+        "location": "string",
+        "name": "string",
+        "namespaceType": "string",
+        "overrideArtifactName": "boolean",
+        "packaging": "string",
+        "path": "string",
+        "type": "string"
+     }
+  ],
+  "secondarySources": [ 
+     { 
+        "auth": { 
+           "resource": "string",
+           "type": "string"
+        },
+        "buildspec": "string",
+        "gitCloneDepth": "number",
+        "insecureSsl": "boolean",
+        "location": "string",
+        "reportBuildStatus": "boolean",
+        "sourceIdentifier": "string",
+        "type": "string"
+     }
+  ],
+  "serviceRole": "string",
+  "source": { 
+     "auth": { 
+        "resource": "string",
+        "type": "string"
+     },
+     "buildspec": "string",
+     "gitCloneDepth": "number",
+     "insecureSsl": "boolean",
+     "location": "string",
+     "reportBuildStatus": "boolean",
+     "sourceIdentifier": "string",
+     "type": "string"
+  },
+  "tags": [ 
+     { 
+        "key": "string",
+        "value": "string"
+     }
+  ],
+  "timeoutInMinutes": "number",
+  "vpcConfig": { 
+     "securityGroupIds": [ "string" ],
+     "subnets": [ "string" ],
+     "vpcId": "string"
+  }
+}
