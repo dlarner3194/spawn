@@ -1,13 +1,14 @@
 const Api = require("./api.js");
 
 const data = {
-  "name": "Hello-World",
-  "description": "This is your first repository",
+  "name": "spawn",
+  "description": "Repository generation tool",
   "homepage": "https://github.com",
   "private": false,
   "has_issues": true,
   "has_projects": true,
-  "has_wiki": true
+  "has_wiki": true,
+  "license_template": "mit"
 };
 
 const createRepo = async data => {
